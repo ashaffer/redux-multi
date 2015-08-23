@@ -1,0 +1,18 @@
+{
+  "name": "redux-multi",
+  "description": "Dispatch multiple actions from one action creator",
+  "repository": "git://github.com/ashaffer/redux-multi.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-tape-runner": "^1.2.0",
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  },
+  "engines": {
+    "node": "~0.10.38",
+    "npm": "~2.9.0"
+  }
+}
