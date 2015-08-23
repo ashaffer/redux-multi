@@ -22,7 +22,7 @@ applyMiddleware(multi)(createStore)
 
 Using it:
 
-```
+```javascript
 function signupUser () {
   return [
     createUserIsLoading(),
