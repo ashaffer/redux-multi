@@ -2,7 +2,7 @@
   "name": "redux-multi",
   "description": "Dispatch multiple actions from one action creator",
   "repository": "git://github.com/ashaffer/redux-multi.git",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {},
