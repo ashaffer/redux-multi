@@ -3,7 +3,7 @@
  */
 
 import test from 'tape'
-import multi from '..'
+import multi from '../src'
 
 /**
  * Tests
