@@ -31,7 +31,7 @@ function signupUser () {
 }
 ```
 
-This will dispatch both actions, sequentially - though not *serially* - it will not wait for any asynchronous behavior or anything like that.
+This will dispatch both actions in order, though not serially in the asynchronous sense.
 
 ## License
 
