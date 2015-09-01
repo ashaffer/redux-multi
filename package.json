@@ -5,6 +5,10 @@
   "version": "0.1.5",
   "license": "MIT",
   "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "rm -rf lib && babel src --out-dir lib",
+    "postpublish": "rm -rf lib"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.21",
