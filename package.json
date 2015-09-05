@@ -15,9 +15,5 @@
     "babel-tape-runner": "^1.2.0",
     "standard": "^5.1.0",
     "tape": "^4.2.0"
-  },
-  "engines": {
-    "node": "~0.10.38",
-    "npm": "~2.9.0"
   }
 }
