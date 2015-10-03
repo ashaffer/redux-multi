@@ -5,7 +5,7 @@
 function multi ({dispatch}) {
   return next => action =>
     Array.isArray(action)
-      ? action.filter(Boolean).forEach(dispatch)
+      ? action.filter(Boolean).map(dispatch)
       : next(action)
 }
 
