@@ -5,7 +5,7 @@
 function multi ({dispatch}) {
   return next => action =>
     Array.isArray(action)
-      ? action.filter(Boolean).map(dispatch)
+      ? Promise.all(action.filter(Boolean).map((p) => dispatch(p)))
       : next(action)
 }
 
