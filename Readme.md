@@ -31,7 +31,7 @@ function signupUser () {
 }
 ```
 
-This will dispatch both actions in order, though not serially in the asynchronous sense.
+This will synchronously dispatch both actions in the specified order.
 
 ## License
 
